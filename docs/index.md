@@ -1,17 +1,14 @@
-# Welcome to MkDocs
+# Fab Lab Liepāja Dokumentācija
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Fab Lab Liepāja dokumentācijas galvenā lapa.
 
-## Commands
+## Sadaļas
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+TODO: drošības instrukcijas un operācijas instrukcijas
 
-## Project layout
+* CNC frēzes lietošanas instrukcija (ievads)
+* CNC frēzes lietošanas instrukcija (papildus)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Papildināšana
+
+Ja atrodi kļūdu vai rodas ieteikumi kā šo saturu pilnveidot, lūdzu izveido [ieteikumu](https://github.com/kr15h/fab-lab-liepaja-docs/issues) projekta GitHub vietnē.
