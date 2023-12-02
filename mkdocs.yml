@@ -1,4 +1,4 @@
-site_name: Fab Lab Liepāja Dokumentācija
+site_name: Fab Lab Liepāja Instrukcija
 markdown_extensions:
   - attr_list
 plugins:
