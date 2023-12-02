@@ -1,1 +1,3 @@
 site_name: Fab Lab Liepāja Dokumentācija
+plugins:
+  - mkdocs-video
