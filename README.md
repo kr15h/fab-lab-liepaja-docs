@@ -10,7 +10,20 @@ Saturs atrodas [docs](./docs) mapē. Satura failus ar paplašinājumu `.md` var 
 
 Pēc rediģēšanas ir ieteicams aizpildīt `commit message` lauku, lai ilgtermiņā varētu gūt pārskatu, kā saturs ir ticis pilnveidots vai mainījies un kurš to ir darījis.
 
+## Attēlu sagatavošana
+
+Visus attēlus vēlams sagatavot `1920x1080px` izmērā (`dpi` nav svarīgs) un saglabāt `jpg` formā ar kvalitātes vērtību `65-75` robežās.
+
 ## Video kodēšana
+
+Var izmantot jebkuru video kodēšanas programmu, bet mēs iesakam ffmpeg, jo tad ir iespējams pēc iespējas tuvāk panākt vēlamos video parametrus. Tā kā visi video ir daļa no mājas lapas, tos ir vēlams saspiest pēc iespējas mazākus, saglabājot pienācīgu kvalitāti. Īsumā vēlamie parametri ir sekojoši.
+
+- Izmērs: `1280x720px`
+- Kadru skaits sekundē: `25fps`
+- Faila formāts: `.mp4`
+- Kodējums: `H.264`
+- Skaņas celiņa kodējums: `AAC`
+- Skaņas celiņa bitreits: `128k`
 
 **Parastā**
 ```
