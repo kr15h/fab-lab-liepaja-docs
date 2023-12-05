@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Darba uzsākšana ar TRW 350 CNC frēzi - Fab Lab Liepāja Instrukcija</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Fab Lab Liepāja Instrukcija</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Sākumlapa</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">TRW 350 CNC <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Darba uzsākšana ar TRW 350 CNC frēzi</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#darba-uzsaksana-ar-trw-350-cnc-frezi" class="nav-link">Darba uzsākšana ar TRW 350 CNC frēzi</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#darba-drosiba" class="nav-link">Darba drošība</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#iekartas-ieslegsana-un-pamatdarbibas" class="nav-link">Iekārtas ieslēgšana un pamatdarbības</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#darba-virsmas-sagatavosana" class="nav-link">Darba virsmas sagatavošana</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#instrumenta-maina" class="nav-link">Instrumenta maiņa</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#nulles-punkta-iestatisana" class="nav-link">Nulles punkta iestatīšana</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#darba-faila-ielade-un-palaisana" class="nav-link">Darba faila ielāde un palaišana</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<div><h1 id="darba-uzsaksana-ar-trw-350-cnc-frezi">Darba uzsākšana ar TRW 350 CNC frēzi</h1>
+<p>Šajā sadaļā ir atrodama informācija par to kā uzsākt darbu ar TRW 350 CNC frēzi. Pēc šīs sadaļas izlasīšanas, lietotājs spēs veikt sekojošās darbības.</p>
+<ol>
+<li>Apzināties iespējamos veselības apdraudējumus un veikt to preventīvu novēršanu.</li>
+<li>Ieslēgt iekārtu un veikt nepieciešamās pamatdarbības.</li>
+<li>Uzstādīt materiālu iekārtas darba laukumā.</li>
+<li>Uzstādīt iekārtas frēzes asmeni.</li>
+<li>Iestatīt sākuma punktus iekāŗtas X, Y un Z asīm.</li>
+<li>Ielādēt un palaist darba failu.</li>
+</ol>
+<p>Darba faila sagatavošanai ieteicams izmantot Vectric V-Carve Pro programmatūru un tas tiks aprakstīts atsevišķā sadaļā.</p>
+<p><img alt="TRW 350 CNC frēze" src="trw-350-cnc.jpg"></p>
+<h2 id="darba-drosiba">Darba drošība</h2>
+<p>TRW 350 CNC iekārta ir potenciāls drauds veselībai un pat dzīvībai, ja to lieto neapzinoties riskus un preventīvi tos nenovēršot. Ir svarīgi ievērot dažas pamatlietas, lai darba process ar CNC frēzi noritētu bez starpgadījumiem.</p>
+<ol>
+<li><strong>Nesteidzies</strong>. Ieplāno pietiekami daudz laika darba uzsākšanai, veikšanai un sakopšanai.</li>
+<li><strong>Nestrādā ar iekārtu vienatnē</strong>. Drošam darbam ar iekārtu ir nepieciešami vismaz divi cilvēki.</li>
+<li><strong>Sakop pirms un pēc darba veikšanas</strong>. Tīra darba vide ir primārs darba drošības priekšnoteikums.</li>
+<li><strong>Novelc cimdus</strong>, darbojoties ar iekārtas kustīgajām daļām.</li>
+<li><strong>Izmanto aizsargbrilles un aizsargaustiņas</strong> iekārtas darbības laikā.</li>
+<li><strong>Brīdini apkārt esošos</strong> par iekārtas darbības riskiem un tava darba plānu.</li>
+</ol>
+<p><img alt="Darba drošība" src="darba-drosiba.jpg"></p>
+<p>Aizsargaustiņas un aizsargbrilles var atrast uz iekārtas tuvumā ierīkotajām aprīkojuma plāksnēm.</p>
+<p><img alt="Aizsargaustiņas un aizsargbrilles" src="aizsargaustinas-un-brilles.jpg"></p>
+<h2 id="iekartas-ieslegsana-un-pamatdarbibas">Iekārtas ieslēgšana un pamatdarbības</h2>
+<p>Sākot darbu ar TRW 350 CNC iekārtu, ir svarīgi pārliecināties par iekārtas darba laukuma tīrību. Darba stacija ir aprīkota ar putekļu sūcēju, ko ieteicams izmantot šī aspekta nodrošināšanai. Novāc visu lieko, kas varētu iespējami traucēt iekartas darbībai. Pievērs īpašu uzmanību liela izmēra materiāla plāksnēm, jo tās var nejauši gāzties vai arī vienkārši norobežot piekļuvi darbam svarīgiem instrumentiem.</p>
+<h3 id="ieslegsana">Ieslēgšana</h3>
+<p>Iekārtas ieslēgšanu jāveic secīgi:</p>
+<ol>
+<li>Piespiež un tur "emergency stop" pogu.</li>
+<li>Pagriež to pretēji pulksteņrādītāja virzienam un tad atlaiž.</li>
+<li>Nospiež zaļo, ierīces strāvas padeves, pogu.</li>
+<li>Sagaida, kamēr sistēma ir ielādējusies, tad nospiež melno "RESET" pogu.</li>
+</ol>
+<p><img alt="Iekārtas ieslēgšana" src="iekartas-ieslegsana.jpg"></p>
+<p>Ja ekrānā redzama mirgojoša "ALARM" un/vai "WARN" daļa, atkārtoti jānospiež "RESET" poga. To visdrīzāk būs jālieto atkārtoti pēc pilnīgas programmatūras ielādes un gadījumā, ja tiek šķērsots darba drošībai uzstādītais lāzeržogs iekārtas darba virsmas priekšpusē.</p>
+<p><div class="video-container"><video style="width:100%" muted controls alt="type:video"><source src="reset.mp4" type="video/mp4"></source></video></div></p>
+<p>Ir ieteicams pārliecināties par lāzeržoga atrašanās vietu, lai to nenāktos šķērsot nejaušā kārtā. Lāzeržoga starmetis ir piestiprināts pie sienas iekārtas kreisajā pusē aiz kontrolbloka.</p>
+<p><img alt="Lāzeržoga starmetis" src="lazerzoga-starmetis.jpg"></p>
+<h3 id="pamatdarbibas">Pamatdarbības</h3>
+<p>Pēc sistēmas pilnīgas ielādes, ir jāveic sekojošās darbības.</p>
+<ol>
+<li>Sistēmas pašreģistrācija (ZRN funkcija).</li>
+<li>Jānostata iekārtas tiltu tās tālākajā (ziemeļu) pusē.</li>
+</ol>
+<p>Sistēmas pašreģistrācija ir nepieciešama iekārtas mehānisko ašu robežu noteikšanai un digitālai reģistrācijai. Šī automātiskā procedūra iestata iekārtu visiem zināmā sākumstāvoklī un tās gaitā var noteikt vai iekārta darbojas korekti. Lai sāktu pašreģistrācijas procesu, jāklikšķina uz <strong>ZRN</strong> pogas, izmantojot sistēmai pieslēgto datorpeli.</p>
+<p><img alt="ZRN poga" src="zrn-button.jpg"></p>
+<p>Pogai vajadzētu iekrāsoties dzeltenā krāsā. Tad jāspiež <strong>START</strong> poga.</p>
+<p><img alt="START poga" src="start-button.jpg"></p>
+<p>Jānogaida, kamēr process noslēdzas. Iekārtas spindeļa modulim būtu jānostājas iekārtas dienvidrietumu augšējā pozīcijā.</p>
+<p><div class="video-container"><video style="width:100%" muted controls alt="type:video"><source src="zrn-process.mp4" type="video/mp4"></source></video></div></p>
+<p>Tad, izmantojot <strong>JOG</strong> funkciju, jānostata spindeļa moduli poszīcijā, kas būtu ērta darba virsmas sagatavošanai. Var izmanot <strong>INCJOG</strong> funkciju, ja ir nepieciešams mainīt kustības soļa izmēru (līdz pat 0.001mm).</p>
+<p><div class="video-container"><video style="width:100%" muted controls alt="type:video"><source src="jog-function.mp4" type="video/mp4"></source></video></div></p>
+<h2 id="darba-virsmas-sagatavosana">Darba virsmas sagatavošana</h2>
+<p>TRW 350 CNC frēze ir aprīkota ar vakuumgaldu un sliedēm stiprinājum-klemmēm. Starp apstrādei paredzēto materiālu un darba galdu nepieciešams ievietot "upurplati". Tā ir aptuveni 10 mm bieza poraina materilāla (MDF vai OBS) plāksne. "Upurplate" palīdz novērst iespēju sabojāt iekārtas galda virsmu neparedzētu kļūmju gadījumā, kā arī nodrošina gaisa plūsmu starp apstrādei paredzēto materiālu un vakuuma galdu. </p>
+<p><img alt="Upurplate" src="upurplate.jpg"></p>
+<h3 id="materiala-izvele">Materiāla izvēle</h3>
+<p>Izvēloties materiālu detaļu izgatavošanai, ir svarīgi ņemt vērā iespējamās darba procesa neprecizitātes. Ir vienmēr labāk ierēķināt papildu 20mm platumam un garumam nekā riskēt ar detaļu neprecizitāti vai zemāku drošības standartu.</p>
+<p><img alt="Materiāla izmērs" src="materiala-izmers.jpg"></p>
+<h3 id="materiala-stiprinasana">Materiāla stiprināšana</h3>
+<p>Stingra materiāla nostiprināšana ir svarīgs priekšnosacījums ne tikai augstas kvalitātes rezultātam, bet arī drošībai. Frēzes rotācijas ātrums ir mērāma desmitos tūkstošu apgriezienos minūtē. Salīdzinājumam, pamēģini apgriezties ap savu asi kaut divdesmit reizes minūtē. Mēģini izplest rokas un aizskart kādu uz galda novietotu objektu. Novēro, kā objekts nevis vienkārši nokrīt no galda, bet no tā aizlido rotācijas virzienā. </p>
+<blockquote>
+<p>Mēģini iztēloties, kas notiktu, ja tavs rotācijas ātrums būtu tūkstoš reizes ātrāks.</p>
+</blockquote>
+<p>Darbā ar TRW 350 CNC iekārtu, ir pieejami divi materiāla stiprināšanas veidi, kas detalizēti aprakstīti zemāk.</p>
+<h3 id="materiala-stiprinasana-ar-klemmem">Materiāla stiprināšana ar klemmēm</h3>
+<p>Klemmes sastāv no četrām daļām.</p>
+<ol>
+<li>Skrūves ar T-veida galvu, kas ir saderīga ar iekārtas galdā iebūvētajām sliedēm</li>
+<li>Klemmes, kas paredzēta saskarei ar materiāla virsmu tās tievākajā galā, un iekārtas galdu resnākajā galā</li>
+<li>Plastmasas ielikņa.</li>
+<li>Tauriņveida uzgriežņa, klemmes pievilkšanai galda virzienā.</li>
+</ol>
+<p><img alt="Klemme" src="klemme.jpg"></p>
+<p>Klemmes nepieciešams "iebīdīt" iekārtas darba virsmas sliedēs. Zemāk attēls un video.</p>
+<p><img alt="Klemmes iebīdīšana" src="klemmes-iebidisana.jpg">
+<div class="video-container"><video style="width:100%" muted controls alt="type:video"><source src="klemmes-iebidisana.mp4" type="video/mp4"></source></video></div></p>
+<p>Pietiekamai materiāla stiprināšanai ieteicams izmantot 4 klemmes. Laba stiprināšanas prakse redzama attēlā zemāk.</p>
+<p><img alt="Laba stiprināšanas prakse" src="laba-stiprinasanas-prakse.jpg"></p>
+<h3 id="materiala-stiprinasana-ar-vakuumgaldu">Materiāla stiprināšana ar vakuumgaldu</h3>
+<p>Atkarībā no materiāla izmēriem, nepieciešams atvērt vienu vai vairākus vakuuma vārstus. Katrs no deviņiem vārstiem atver vai noslēdz vakuuma ietekmi uz vienu no deviņiem vakuuma galda blokiem. Attēlā zemāk var redzēt staistību starp vakuuma vārstiem un vakuuma galda blokiem (skatoties no iekārtas priekšpuses).</p>
+<p><img alt="Vakuuma vārstu shēma" src="vacuum-map.jpg"></p>
+<p>Vakuuma galdu ieteicams izmantot liela izmēra (&gt;1000x1000mm) materiāla plākšņu stiprināšanai. Nav ieteicams vakuumgaldu izmantot poraina materiāla stiprināšanai. </p>
+<p>Svarīgs priekšnosacījums korektai vakuuma galda darbībai ir gumijas blīvju ievietošana. Ieteicams šīs blīves darba galdā ievietot tā, lai tās ierobežotu gaisa plūsmu vietās, kur paredzēts stiprināt materiālu.</p>
+<p><div class="video-container"><video style="width:100%" muted controls alt="type:video"><source src="vakuumgalda-gumijas.mp4" type="video/mp4"></source></video></div></p>
+<p>Tad secīgi jānovieto upurplate. Zemāk redzamajā video upurplates dienvidrietumu stūris tiek salāgots ar gumiju nosprostoto vakuuma laukumu. Šāda pieeja padara materiāla precīzu novietošanu vienkāršāku, salāgojot materiāla dienvidrietumu stūri ar upurplates.</p>
+<p><div class="video-container"><video style="width:100%" muted controls alt="type:video"><source src="upurplate-materials-vakuums.mp4" type="video/mp4"></source></video></div></p>
+<p>Lai ieslēgtu vakuumsūkni, nepieciešams pulksteņrādītāja virzienā pagriezt <strong>VAC 1</strong> un <strong>VAC 2</strong> slēdžus vadības panelī.</p>
+<p><img alt="Vakuuma ieslēgšana" src="vakuuma-ieslegsana.jpg"></p>
+<p>Vakuuma vilkmei jābūt tik spēcīgai, lai materiālu nevarētu atvilkt no upurplates virsmas ar roku palīdzību. Ja šo vilkmi nav iepējams panākt, materiāla stiprināšanai nepieciešams izmantot klemmes.</p>
+<h2 id="instrumenta-maina">Instrumenta maiņa</h2>
+<p>Frēzes instrumentu parasti izvēlas pēc nepieciešamās detalizācijas pakāpes, kā arī vēlamās galējās virsmas kvalitātes. Izmēra (diametra) ziņā, mazāka diametra frēze dod iespēju izgriezt smalkākas detaļas, bet lēnāk. Lielāka diametra frēze ir piemērota lielākām detaļām un griezīs ātrāk.</p>
+<p>Darbnīcā ir pieejamas tā saucamās <em>upcut</em> un <em>downcut</em> frēzes. <em>Upcut</em> vai uz augšu virzošā frēze rada mazāku slodzi iekārtai Z ass (uz augšu, leju) virzienā. Griežot, skaidas tiek izvadītas ārā no izfrēzētā kanāla, tādējādi neradot pretspiedienu, bet saplākšņa un mazāk blīva koka gadījumā, uzraut virsējā slāņa skaidas uz augšu, radot nepieciešamību veikt papildu apstrādi. Lai no tā izvairītos, var izmantot tā saucamo <em>downcut</em> vai uz leju virzošo frēzi. Šīs frēzes asmeņi ir savērpti tā, lai skaidas tiktu virzītas materiāla virzienā, tādējādi nodrošinot maksimāli gludu griezuma ārējo malu, līdz ar to samazinot nepieciešamību veikt pēcapstrādi.</p>
+<p><img alt="Downcut vs upcut" src="downcut-upcut.jpg"></p>
+<p>Pirms turpināt darbu, nepieciešams atmontēt esošo frēzi. Tam paredzētā mazākā atslēga jānovieto augstāk un kreisajā pozīcijā un lielākā atslēga jānovieto zemākā pozīcijā pa labi. Cangas uzgrieznis, kurš tiek satverts ar lielāko atslēgu, tiek atskrūvēts spiežot lielāko atslēgu mazākās atslēgas virzienā ar vienas rokas palīdzību, lai izvairītos no nevajadzīgām traumām. Pareizu atmontēšanu skatīties zemāk redzamajā video.</p>
+<blockquote>
+<p><strong>Svarīgi!</strong> Šī procesa gaitā obligāti jānovelk cimdi.</p>
+</blockquote>
+<p><div class="video-container"><video style="width:100%" muted controls alt="type:video"><source src="frezes-atmontesana.mp4" type="video/mp4"></source></video></div></p>
+<p>Pēc vēlamās frēzes veida un izmēra izvēles, jāatrod arī piemērota canga. Cangas iekšējam diametram jāsakrīt ar frēzes kāta diametru. Frēzes kātam bez grūtībām, bet ar nelielu berzes pretestību, būtu jāieslīd cangā.  </p>
+<blockquote>
+<p><strong>Svarīgi!</strong> Pārliecinies vai cangā un cangas uzgrieznī nav sakrājušās skaidas. </p>
+</blockquote>
+<p><div class="video-container"><video style="width:100%" muted controls alt="type:video"><source src="frezes-montaza.mp4" type="video/mp4"></source></video></div></p>
+<p>Tālāk frēzes uzgrieznis ar tajā ievietoto cangu un frēzi jāuzskrūvē spindeļa vītnei. Jāpārliecinās, ka instruments ir iebīdīts cangā pietiekami dziļi, bet ne dziļāk kā dažus milimetrus pirms frēzes asmeņu sākumlīmenim.</p>
+<blockquote>
+<p><strong>Svarīgi!</strong> Šī procesa gaitā obligāti jānovelk cimdi.</p>
+</blockquote>
+<p><div class="video-container"><video style="width:100%" muted controls alt="type:video"><source src="cangas-uzgriezna-montaza.mp4" type="video/mp4"></source></video></div></p>
+<h2 id="nulles-punkta-iestatisana">Nulles punkta iestatīšana</h2>
+<p>Parasti darba fails tiek sagatavots, balstoties uz koordinātu sistēmu, kas balstīta uz materiāla izmēriem. Šī darba failā saglabātā koordinātu sistēma ir jāsalāgo ar reālo materiāla atrašanās vietu uz iekārtas darba virsmas. </p>
+<p>Kā pirmais solis šim procesam ir pārslēgšanās uz <strong>MPG</strong> režīmu, kas ļauj izmantot iekārtai pievienoto pozicionēšanas pulti.</p>
+<p><img alt="MPG režīms un pozicionēšanas pults" src="mpg-pults.jpg"></p>
+<p>Uz pults ir divi rotējošie slēdži. Kreisais slēdzis ļauj pārslēgties starp iekārtas X, Y un Z asīm. Slēdzis labajā pusē ļauj pārslēgt soļa izmēru, līdz pat 0.001mm (milimetra tūkstošdaļas) precizitātei.</p>
+<p>X ass kustība notiek starp austrumiem (+) un rietumiem (-), Y ass kustība notiek starp ziemeļiem (+) un dienvidiem (-), Z ass kustība notiek starp augšu (+) un leju (-).</p>
+<p><div class="video-container"><video style="width:100%" muted controls alt="type:video"><source src="mpg-mode.mp4" type="video/mp4"></source></video></div></p>
+<p>Ar pults palīdzību frēzes gals jānostāda vietā, kura atbilst darba failā noteiktajai sākuma pozīcijai. Īpaša uzmanība jāpievērš Z ass novietojumam. Ar pults precizitātes iespēju palīdzību, frēzes asmenis jāpietuvina materiāla virsmai tik tuvu, lai tas knapi tai pieskārtos un griežoties gandrīz noņemtu nelielu skaidu.</p>
+<p><div class="video-container"><video style="width:100%" muted controls alt="type:video"><source src="remote-z-adjustment.mp4" type="video/mp4"></source></video></div></p>
+<h3 id="nulles-iestatisana-x-un-y-asim">Nulles iestatīšana X un Y asīm</h3>
+<p>Nākamais solis ir norādīt šo fizisko pozīciju kā procesa sākum- (vai nulles) pozīciju iekārtas datorsistēmā. Lai to izdarītu, jāsāk ar klikšķi uz <strong>SETUP</strong> pogas.</p>
+<p><img alt="Klikšķis uz SETUP pogas" src="setup-button.jpg"></p>
+<p>Tad jāuzklikšķina uz <strong>X</strong> vērtības lauka <strong>G54</strong> kolonnā. Tam būtu jāiekrāsojas zilā krāsā.</p>
+<p><img alt="Klikšķis uz G54 X vērtības lauka" src="g54-x.jpg"></p>
+<p>Zemāk lietotnē redzamajā ievades laukā, jāievada <strong>0</strong>.</p>
+<p><img alt="Ievadam 0" src="g54-0.jpg"></p>
+<p>Tad jānospiež taustiņš <strong>Enter</strong> uz iekārtas klaviatūras.</p>
+<p><img alt="Nospiest Enter" src="press-enter.jpg"></p>
+<p>Sekojoši, <strong>ABSOLUTE</strong> sadaļā, X vērtība nomainīsies uz attālumu starp G54 nulles pozīciju un esošo frēzes novietojumu pa X asi. Lai panāktu to, ka <strong>ABSOLUTE X</strong> vērtība pārtop par nulli, <strong>G54 X</strong> pozīcija ir jāmaina uz esošo <strong>ABSOLUTE X</strong> vērtību. Tāpēc ievades laukā mēs ievadam tieši to pašu skaitli, ko redzam <strong>ABSOLUTE X</strong> vērtības laukā.</p>
+<p><img alt="ABSOLUTE X vērtības ievade" src="absolute-value-input.jpg"></p>
+<p>Un atkal nospiežam <strong>Enter</strong> uz iekārtai pieslēgtās klaviatūras.</p>
+<p><img alt="Nospiest Enter" src="press-enter.jpg"></p>
+<p>Tagad jāpārliecinās vai <strong>ABSOLUTE X</strong> vērtība patiešām ir <strong>0</strong>.</p>
+<p><img alt="ABSOLUTE X vērtība ir 0" src="absolute-x-is-null.jpg"></p>
+<p>Šo pašu procesu jāatkārto ar ieklikšķinātu <strong>G54 Y</strong> vērtības lauku. Jāpārliecinās, ka <strong>ABSOLUTE Y</strong> vērtība arī pārtop par nulli. </p>
+<blockquote>
+<p><strong>Svarīgi!</strong> Z ass nulles vērtības iestatīšanai tiek izmantota cita metode, kas aprakstīta zemāk.</p>
+</blockquote>
+<h3 id="nulles-iestatisana-z-asij">Nulles iestatīšana Z asij</h3>
+<p>Lai iestatītu <strong>ABSOLUTE Z</strong> nulles vērtību, jāklikšķina uz <strong>ATM</strong> pogas.</p>
+<p><img alt="Klikšķināt uz ATM pogas" src="atm-button.jpg"></p>
+<p>Tad jānospiež <strong>Z SET</strong> poga.</p>
+<p><img alt="Klikšķināt uz Z SET pogas" src="zset-button.jpg"></p>
+<p>Lai pārliecinātos, ka <strong>ABSOLUTE Z</strong> pozīcija tiešām ir <strong>0</strong>, jāpārslēdzas uz <strong>HOME</strong> darba virsmu.</p>
+<p><img alt="Klikšķināt uz HOME pogas" src="home-button.jpg"></p>
+<p>Šajā skatā, Z vērtībai vajadzētu būt <strong>0</strong>.</p>
+<p><img alt="Home view Z value" src="home-z-value.jpg"></p>
+<p>Tālāk varam veikt atlikušās darbības un palaist darba failu.</p>
+<h2 id="darba-faila-ielade-un-palaisana">Darba faila ielāde un palaišana</h2>
+<p>Pirms darba faila ielādes un palaišanas, nepieciešams spindeļa modulim piestiprināt skaidu nosūkšanas birsti. Tas palīdzēs uzsūkt un novadīt frēzēšanas gaitā radušās skaidas un putekļus.</p>
+<p><div class="video-container"><video style="width:100%" muted controls alt="type:video"><source src="skaidu-nosuceja-pieliksana.mp4" type="video/mp4"></source></video></div></p>
+<h3 id="darba-faila-ielade">Darba faila ielāde</h3>
+<p>Darba failu nepieciešams ielādēt USB datu pārneses modulī (pirkstiņā) un ievietot CNC iekārtas USB ligzdā.</p>
+<p><img alt="USB ligzda" src="usb-port.jpg"></p>
+<p>Tad jānospiež <strong>USB IMP</strong> poga, kas atvērs USB failu kopēšanas pārlūka darba virsmu.</p>
+<p><img alt="USB IMP poga" src="usb-imp-button.jpg"></p>
+<p>Labajā pārlūka pusē jāatrod un jāuzklikšķina uz vēlamā darba faila.</p>
+<p><img alt="Izvēlēties darba failu USB ailē" src="usb-select-job-file.jpg"></p>
+<p>Tad jānospiež poga <strong>SEND</strong>.</p>
+<p><img alt="Nospiest pogu SEND" src="usb-send-button.jpg"></p>
+<p>Jānogaida kamēr darba fails ir pārkopēts CNC iekārtas atmiņā. Būtu jāredz <strong>Transfer Complete</strong> ziņa lietotnes kreisajā apakšējā daļā.</p>
+<p><img alt="Jāsagaida Transfer Complete ziņa" src="usb-transfer-complete.jpg"></p>
+<h3 id="darba-faila-simulacija">Darba faila simulācija</h3>
+<p>Pirms darba faila palaišanas, ir ieteicams drošības labad pārliecināties vai iekārta atpazīst darba failā saglabātās komandas. Tam ir paredzēta simulācijas funkcija, kurai var piekļūt klikšķinot uz <strong>EDIT</strong> pogas.</p>
+<p><img alt="Klikšķināt uz EDIT pogas" src="edit-button.jpg"></p>
+<p>Šajā lietotnes darba virsmā iespējams simulēt darba faila izpildi un redzēt frēzes kustības plānotās trajektorijas, kā arī to, kur frēze kustēsies pāri materiālam un kur tā iegremdēsies tajā, un cik dziļi.</p>
+<p><img alt="EDIT darba virsma" src="edit-workspace.jpg"></p>
+<h3 id="darba-faila-palaisana">Darba faila palaišana</h3>
+<p>Visbeidzot mēs esam gatavi palaist darba failu. Lai to izdarītu, mums jāatgriežas <strong>HOME</strong> darba virsmā nospiežot <strong>HOME</strong> pogu.</p>
+<p><img alt="Klikšķināt uz HOME pogas" src="home-button.jpg"></p>
+<p>Pēdējo reizi pārliecinamies, ka ielādētais darba fails ir tas, ko mēs gribam.</p>
+<p><img alt="Pārliecināties vai ir ielādēts pareizais darba fails" src="home-doublecheck-job.jpg"></p>
+<p>Un spiežam uz zaļās <strong>START</strong> pogas labajā apakšējā lietotnes stūrī.</p>
+<p><img alt="Klikšķināt uz START pogas" src="start-button.jpg"></p>
+<p>Katram gadījumam turam pirkstu virs sarkanās drošības pogas un peles kursoru virs <strong>PAUSE</strong> pogas lietotnes labajā apakšējā stūrī.</p>
+<p><img alt="Saglabājam modrību" src="emergency-stop.jpg"></p>
+<p>Saglabājot modrību sagaidām kamēr iekārta pabeidz darbu.</p>
+<p><div class="video-container"><video style="width:100%" muted controls alt="type:video"><source src="cnc-in-action.mp4" type="video/mp4"></source></video></div></p>
+<p>Izmantojam iepriekš apgūtās metodes instrumenta atbīdīšanai pietiekamā attālumā drošai gatavo detaļu noņemšanai no iekārtas darba galda virsmas.</p>
+<p><img alt="Droša gatavo detaļu noņemšana" src="safe-part-removal.jpg"></p>
+<p>Novērtējam gatavās detaļas kvalitāti.</p>
+<p><img alt="Gatavās detaļas novērtēšana" src="ready-part-evaluation.jpg"></p>
+<blockquote>
+<p><strong>Svarīgi!</strong> Cieni citus. Sakop aiz sevis. Atstāj darba vidi labākā kārtībā nekā tā bija, kad ieradies. </p>
+</blockquote></div></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
