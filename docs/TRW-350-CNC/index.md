@@ -36,7 +36,7 @@ Sākot darbu ar TRW 350 CNC iekārtu, ir svarīgi pārliecināties par iekārtas
 
 ### Ieslēgšana
 
-Iekārtas ieslēgšanu jāveic secīgi.
+Iekārtas ieslēgšanu jāveic secīgi:
 
 1. Piespiež un tur "emergency stop" pogu.
 2. Pagriež to pretēji pulksteņrādītāja virzienam un tad atlaiž.
