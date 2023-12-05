@@ -9,7 +9,7 @@
 1. Iestatīt sākuma punktus iekāŗtas X, Y un Z asīm.
 1. Ielādēt un palaist darba failu.
 
-Darba faila sagatavošanai ieteicams izmantot Vectric V-Carve Pro programmatūru un tas tiks aprakstīts atsevišķā sadaļa.
+Darba faila sagatavošanai ieteicams izmantot Vectric V-Carve Pro programmatūru un tas tiks aprakstīts atsevišķā sadaļā.
 
 ![TRW 350 CNC frēze](trw-350-cnc.jpg)
 
