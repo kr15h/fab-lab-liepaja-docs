@@ -1,6 +1,6 @@
 # Fab Lab Liepāja Dokumentācija
 
-Dokumentācijas risinājums Fab Lab Liepāja iekārtām. Kā lietot iekārtas? Šeit ir dokumentācija. Laipni lūgti.
+Dokumentācijas risinājums Fab Lab Liepāja iekārtām. Kā lietot iekārtas? Šeit ir dokumentācija. Laipni lūgti. Publicēto versiju skatīt [šeit](https://kr15h.github.io/fab-lab-liepaja-docs/)!
 
 Šis risinājums ir izstrādāts izmantojot [mkdocs.org](https://www.mkdocs.org) pieeju. Šajā repositorijā ir tikai izejas kods, kurš tiek pārveidots web lapas formā automātiski. 
 
